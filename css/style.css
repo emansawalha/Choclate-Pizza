@@ -1,18 +1,243 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
-  padding: 50px 0px 50px 0px;
+
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
-.container {
-  width: 900px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-
-p {
-  font-family: "Alegreya Sans", sans-serif;
-  font-size: 21px;
-  opacity: 0.8;
+header {
+  
+  padding: 15px;
+  /* background: rgb(59, 16, 16); */
+  margin-bottom: 15px;
 }
 
 
+
+header h3 {
+position: relative;
+left: 45px;
+bottom : 50px;
+font-size : 35px ; 
+font-family :'Satisfy', cursive;
+}
+
+header p {
+  position: relative;
+  left: 45px;
+bottom : 48px;
+font-size: 10px;
+color: darkgray;
+}
+
+nav ul li {
+  /* display : inline-block ; */
+  position: relative;
+  bottom: 65px;
+  float : right ;
+  margin: 2px;
+  
+}
+
+#bar {
+  position: relative;
+  width: 98%;
+  left: 10px ;
+}
+
+#print {
+  position: relative;
+  padding-top: 0px;
+  display: inline;
+  float :right ;
+  top: 0px;
+  font-size: 7px;
+  
+}
+
+#CHOCOLATE  {
+  position: relative;
+  top: 20px;
+  left: 12px;
+  color: rgb(0, 0, 0);
+}
+
+#choc {
+
+  font-size: 35px;
+  font-family:fantasy;
+}
+#posted {
+  font-size: 13px;
+  color: lightgray;
+}
+
+#bigpizza {
+ position: relative;
+  width: 100%;
+  left: 10px;
+  top: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.para {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+#listimg {
+ position: relative;
+ left :30px ;
+top: 25px ;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#checklist {
+  position: relative;
+
+}
+
+input , label{
+  position: relative;
+  bottom: 250px;
+  left: 55px;
+  font-size: 20px;
+  font-family: 'Kalam', cursive;
+  color: rgb(104, 45, 45);
+  width: 150px;
+}
+
+.firstcheck {
+  position: relative;
+  left: 105px;
+}
+
+
+.b {
+  position: relative;
+  left: 8px ;
+}
+.secondcheck {
+  position: relative;
+  left: 56px;
+}
+.thirdcheck {
+  position: relative;
+  left: 90px;
+
+}
+.fourthcheck {
+  position: relative;
+  left: 50px;
+}
+
+.c {
+  position: relative;
+  left: 45px;
+}
+
+.d {
+  position: relative;
+  left: 0px;
+}
+
+.fifthcheck {
+  position: relative;
+  left: 35px;
+}
+
+.e {
+  position: relative;
+  left: 0px;
+}
+
+.sixthcheck {
+  position: relative;
+  left: 100px;
+}
+
+.f {
+  position: relative;
+  left: 50px;
+}
+
+
+#downbar{
+  position: relative;
+  width: 98%;
+  left: 10px ;
+  bottom: 140px;
+}
+
+#girlimg {
+  position: relative;
+float: left;
+bottom: 110px;
+}
+
+#name {
+  position: relative;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+font-size: 20px;
+bottom: 110px;
+left: 10px;
+}
+
+#pio {
+  position: relative;
+  font-size: 17px;
+  bottom: 100px;
+left: 10px;
+color: rgb(71, 70, 70);
+}
+
+#button {
+  position: relative;
+  color: rgb(158, 68, 68);
+  background-color: rgb(253, 161, 132);
+  /* border: rgb(255, 255, 255); */
+  /* padding: 10px 24px; */
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+  float: right;
+  right: 15px;
+  bottom: 150px;
+  border-bottom: 4mm ridge rgba(104, 99, 100, 0.6);
+  transition-duration: 0.4s;
+
+}
+
+#rightline {
+  width: 100%;
+  bottom: 50px;
+  color: lightgray;
+}
+
+#footerimg {
+  position: relative;
+left: 475px;
+bottom: 25px;
+}
+
+#copyright {
+  position: relative;
+  left:375px ;
+  color: lightgray;
+  bottom: 20px;
+
+
+}
+
+#lastline {
+
+  position: relative;
+  left:405px ;
+  color: lightgray;
+  bottom: 10px;
+
+}
